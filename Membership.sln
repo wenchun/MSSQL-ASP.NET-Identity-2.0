@@ -11,6 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{4FCFCB79-F45F-4955-BDC2-CA69B79D2EDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{781C53B6-C943-40C6-A950-D7A848A3D07E}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +32,10 @@ Global
 		{A94942C3-0FB3-4C05-A22F-4C3E4DED9055}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A94942C3-0FB3-4C05-A22F-4C3E4DED9055}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A94942C3-0FB3-4C05-A22F-4C3E4DED9055}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4FCFCB79-F45F-4955-BDC2-CA69B79D2EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FCFCB79-F45F-4955-BDC2-CA69B79D2EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FCFCB79-F45F-4955-BDC2-CA69B79D2EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FCFCB79-F45F-4955-BDC2-CA69B79D2EDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
